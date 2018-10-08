@@ -1,0 +1,73 @@
+.field {
+    width: 440px;
+    background-color: #fff;
+    border-radius: 5.51px;
+    border: 1px solid rgba(153,153,153,0.33);
+    padding: 34px 71.5px;
+}
+
+.inputs{
+    position:relative;
+    margin-bottom: 34px;
+}
+form :nth-child(2){
+    margin-bottom: 40px;
+}
+.inputs input {
+    width: 100%;
+    padding: 15px;
+    padding-left: 43px;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: -0.14px;
+    border: 1px solid rgba(153,153,153,0.28);
+    border-radius: 5px;
+    z-index: 1;
+    margin: 0;
+}
+.inputs .icon{
+    position: absolute;
+    top: 50%;
+    left: 14.5px;
+    transform: translateY(-50%);
+}
+.inputs .valid {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -22px;
+}
+.wrongEmail {
+    color: red;
+    font-size: 11px;
+    position: absolute;
+    margin: 0;
+    left: 4px;
+    margin: 0;
+    bottom: -17px; 
+}
+.loginBtn{
+    text-align: left;
+}
+.loginBtn button{
+    border: none;
+    font-size: 18px;
+    color: #fff; 
+    letter-spacing: -0.18px;
+    padding: 15px 25px;
+    background-color: #36a2c1;
+    box-shadow: 2px 3px 3px #2d7f96;
+}
+.loginBtn p{
+    margin: 6px 0 0;
+    font-size: 12px;
+    color:#666666;
+    letter-spacing: -0.12px;
+}
+.loginBtn p a {
+    color:#36a2c1;
+    text-decoration: none;
+}
+.loginBtn p a:hover {
+    text-decoration: underline;
+} 
